@@ -6,7 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The changes documented here do not include those from the original repository.
 
-## [Unreleased]
+## [Version 2.3.3]
+
+### Features
+- (android) Subscribe to app general topic when registering device (and unsubscribe when unregistering) (https://outsystemsrd.atlassian.net/browse/RMET-2948).
 
 ### Fix
 - (ios) `NotificationClickedV2` not being triggered when deep link property is not set (https://outsystemsrd.atlassian.net/browse/RMET-3695).
