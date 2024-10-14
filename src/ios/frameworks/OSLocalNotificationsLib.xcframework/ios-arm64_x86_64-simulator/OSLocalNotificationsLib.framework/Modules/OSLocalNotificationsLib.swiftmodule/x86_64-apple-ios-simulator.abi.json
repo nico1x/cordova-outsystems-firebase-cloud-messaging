@@ -326,63 +326,6 @@
                 "moduleName": "OSLocalNotificationsLib",
                 "implicit": true,
                 "init_kind": "Designated"
-              },
-              {
-                "kind": "Var",
-                "name": "allCases",
-                "printedName": "allCases",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[OSLocalNotificationsLib.OSLCNOInternalEvent.CodingKeys]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CodingKeys",
-                        "printedName": "OSLocalNotificationsLib.OSLCNOInternalEvent.CodingKeys",
-                        "usr": "s:23OSLocalNotificationsLib19OSLCNOInternalEventV10CodingKeysO"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:23OSLocalNotificationsLib19OSLCNOInternalEventV10CodingKeysO8allCasesSayAEGvpZ",
-                "mangledName": "$s23OSLocalNotificationsLib19OSLCNOInternalEventV10CodingKeysO8allCasesSayAEGvpZ",
-                "moduleName": "OSLocalNotificationsLib",
-                "static": true,
-                "implicit": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[OSLocalNotificationsLib.OSLCNOInternalEvent.CodingKeys]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "CodingKeys",
-                            "printedName": "OSLocalNotificationsLib.OSLCNOInternalEvent.CodingKeys",
-                            "usr": "s:23OSLocalNotificationsLib19OSLCNOInternalEventV10CodingKeysO"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:23OSLocalNotificationsLib19OSLCNOInternalEventV10CodingKeysO8allCasesSayAEGvgZ",
-                    "mangledName": "$s23OSLocalNotificationsLib19OSLCNOInternalEventV10CodingKeysO8allCasesSayAEGvgZ",
-                    "moduleName": "OSLocalNotificationsLib",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
               }
             ],
             "declKind": "Enum",
@@ -436,36 +379,6 @@
                 "printedName": "CodingKey",
                 "usr": "s:s9CodingKeyP",
                 "mangledName": "$ss9CodingKeyP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CaseIterable",
-                "printedName": "CaseIterable",
-                "children": [
-                  {
-                    "kind": "TypeWitness",
-                    "name": "AllCases",
-                    "printedName": "AllCases",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[OSLocalNotificationsLib.OSLCNOInternalEvent.CodingKeys]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "CodingKeys",
-                            "printedName": "OSLocalNotificationsLib.OSLCNOInternalEvent.CodingKeys",
-                            "usr": "s:23OSLocalNotificationsLib19OSLCNOInternalEventV10CodingKeysO"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:s12CaseIterableP",
-                "mangledName": "$ss12CaseIterableP"
               },
               {
                 "kind": "Conformance",
@@ -527,6 +440,7 @@
                     "usr": "s:Sa"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
               }
             ],
@@ -2515,224 +2429,224 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/UNExtensions\/UNMutableNotificationContent+Adapter.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/UNExtensions\/UNMutableNotificationContent+Adapter.swift",
       "kind": "IntegerLiteral",
       "offset": 383,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/UNExtensions\/UNNotificationActionExtension.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/UNExtensions\/UNNotificationActionExtension.swift",
       "kind": "StringLiteral",
       "offset": 738,
       "length": 6,
       "value": "\"Send\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/UNExtensions\/UNNotificationActionExtension.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/UNExtensions\/UNNotificationActionExtension.swift",
       "kind": "StringLiteral",
       "offset": 781,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOError.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOError.swift",
       "kind": "IntegerLiteral",
       "offset": 141,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOError.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOError.swift",
       "kind": "IntegerLiteral",
       "offset": 167,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOError.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOError.swift",
       "kind": "StringLiteral",
       "offset": 309,
       "length": 39,
       "value": "\"A notification must have a title set.\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOError.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOError.swift",
       "kind": "StringLiteral",
       "offset": 396,
       "length": 55,
       "value": "\"There was an error while triggering the notification.\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOError.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOError.swift",
       "kind": "IntegerLiteral",
       "offset": 141,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOError.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOError.swift",
       "kind": "IntegerLiteral",
       "offset": 167,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOError.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOError.swift",
       "kind": "IntegerLiteral",
       "offset": 141,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOError.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOError.swift",
       "kind": "IntegerLiteral",
       "offset": 167,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
       "kind": "StringLiteral",
       "offset": 1891,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
       "kind": "IntegerLiteral",
       "offset": 2958,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
       "kind": "IntegerLiteral",
       "offset": 3050,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
       "kind": "StringLiteral",
       "offset": 3113,
       "length": 10,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
       "kind": "StringLiteral",
       "offset": 3122,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
       "kind": "StringLiteral",
       "offset": 3484,
       "length": 37,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
       "kind": "StringLiteral",
       "offset": 3517,
       "length": 1,
       "value": "\":\/\/\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
       "kind": "IntegerLiteral",
       "offset": 3821,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
       "kind": "StringLiteral",
       "offset": 3858,
       "length": 3,
       "value": "\"?\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
       "kind": "StringLiteral",
       "offset": 4045,
       "length": 30,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
       "kind": "StringLiteral",
       "offset": 4065,
       "length": 1,
       "value": "\"=\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
       "kind": "StringLiteral",
       "offset": 4074,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
       "kind": "IntegerLiteral",
       "offset": 4154,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/Models\/OSLCNOAction.swift",
       "kind": "StringLiteral",
       "offset": 4195,
       "length": 3,
       "value": "\"&\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/OSLCNOWrapper.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/OSLCNOWrapper.swift",
       "kind": "StringLiteral",
       "offset": 31,
       "length": 13,
       "value": "\"OSLocalNotificationsLib.OSLCNOWrapper\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/OSLCNOWrapper.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/OSLCNOWrapper.swift",
       "kind": "StringLiteral",
       "offset": 663,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/OSLCNOWrapper.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/OSLCNOWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 753,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/UNExtensions\/Extensions\/Encodable+UNUserNotificationCenter.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/UNExtensions\/Extensions\/Encodable+UNUserNotificationCenter.swift",
       "kind": "Dictionary",
       "offset": 284,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/UNExtensions\/Extensions\/Encodable+UNUserNotificationCenter.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/UNExtensions\/Extensions\/Encodable+UNUserNotificationCenter.swift",
       "kind": "Array",
       "offset": 610,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/UNExtensions\/UNUserNotificationCenter+Adapter.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/UNExtensions\/UNUserNotificationCenter+Adapter.swift",
       "kind": "Array",
       "offset": 402,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/UNExtensions\/UNUserNotificationCenter+Adapter.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/OSRepos\/libraries\/OSLocalNotificationsLib-iOS\/OSLocalNotificationsLib\/UNExtensions\/UNUserNotificationCenter+Adapter.swift",
       "kind": "Array",
       "offset": 1056,
       "length": 2,
