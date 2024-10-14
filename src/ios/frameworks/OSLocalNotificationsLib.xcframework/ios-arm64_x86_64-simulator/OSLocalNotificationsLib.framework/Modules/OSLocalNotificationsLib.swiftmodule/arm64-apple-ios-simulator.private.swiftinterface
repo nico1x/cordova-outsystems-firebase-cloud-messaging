@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name OSLocalNotificationsLib
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name OSLocalNotificationsLib
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
 import Swift
@@ -9,12 +9,16 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 public struct OSLCNOInternalEvent : Swift.Codable {
-  public enum CodingKeys : Swift.String, Swift.CodingKey {
+  public enum CodingKeys : Swift.String, Swift.CodingKey, Swift.CaseIterable {
     case screenName, parameterArray
     public init?(rawValue: Swift.String)
     public init?(stringValue: Swift.String)
     public init?(intValue: Swift.Int)
+    public typealias AllCases = [OSLocalNotificationsLib.OSLCNOInternalEvent.CodingKeys]
     public typealias RawValue = Swift.String
+    public static var allCases: [OSLocalNotificationsLib.OSLCNOInternalEvent.CodingKeys] {
+      get
+    }
     public var intValue: Swift.Int? {
       get
     }
@@ -25,7 +29,7 @@ public struct OSLCNOInternalEvent : Swift.Codable {
       get
     }
   }
-  public init(screenName: Swift.String, parameterArray: [OSLocalNotificationsLib.OSLCNOParameter]? = nil)
+  public init(screenName: Swift.String, parameterArray: [OSLocalNotificationsLib.OSLCNOParameter]?)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }

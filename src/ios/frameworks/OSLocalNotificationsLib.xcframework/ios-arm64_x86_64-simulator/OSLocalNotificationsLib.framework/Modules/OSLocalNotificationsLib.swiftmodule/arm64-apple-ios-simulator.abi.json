@@ -326,6 +326,63 @@
                 "moduleName": "OSLocalNotificationsLib",
                 "implicit": true,
                 "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "allCases",
+                "printedName": "allCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[OSLocalNotificationsLib.OSLCNOInternalEvent.CodingKeys]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "OSLocalNotificationsLib.OSLCNOInternalEvent.CodingKeys",
+                        "usr": "s:23OSLocalNotificationsLib19OSLCNOInternalEventV10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:23OSLocalNotificationsLib19OSLCNOInternalEventV10CodingKeysO8allCasesSayAEGvpZ",
+                "mangledName": "$s23OSLocalNotificationsLib19OSLCNOInternalEventV10CodingKeysO8allCasesSayAEGvpZ",
+                "moduleName": "OSLocalNotificationsLib",
+                "static": true,
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[OSLocalNotificationsLib.OSLCNOInternalEvent.CodingKeys]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "OSLocalNotificationsLib.OSLCNOInternalEvent.CodingKeys",
+                            "usr": "s:23OSLocalNotificationsLib19OSLCNOInternalEventV10CodingKeysO"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23OSLocalNotificationsLib19OSLCNOInternalEventV10CodingKeysO8allCasesSayAEGvgZ",
+                    "mangledName": "$s23OSLocalNotificationsLib19OSLCNOInternalEventV10CodingKeysO8allCasesSayAEGvgZ",
+                    "moduleName": "OSLocalNotificationsLib",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Enum",
@@ -379,6 +436,36 @@
                 "printedName": "CodingKey",
                 "usr": "s:s9CodingKeyP",
                 "mangledName": "$ss9CodingKeyP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CaseIterable",
+                "printedName": "CaseIterable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "AllCases",
+                    "printedName": "AllCases",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[OSLocalNotificationsLib.OSLCNOInternalEvent.CodingKeys]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "OSLocalNotificationsLib.OSLCNOInternalEvent.CodingKeys",
+                            "usr": "s:23OSLocalNotificationsLib19OSLCNOInternalEventV10CodingKeysO"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:s12CaseIterableP",
+                "mangledName": "$ss12CaseIterableP"
               },
               {
                 "kind": "Conformance",
@@ -440,7 +527,6 @@
                     "usr": "s:Sa"
                   }
                 ],
-                "hasDefaultArg": true,
                 "usr": "s:Sq"
               }
             ],
