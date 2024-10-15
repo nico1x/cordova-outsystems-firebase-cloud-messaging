@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The changes documented here do not include those from the original repository.
 
+## [Unreleased]
+
+### Features
+- iOS - Subscribes and unsubscribes from `appGeneralTopic` - `appIdentifier-general-topic-ios` when registering and unregistering the device. (https://outsystemsrd.atlassian.net/browse/RMET-2947).
+
 ## [Version 2.3.1]
 
 ### Fixes
