@@ -9,7 +9,8 @@ The changes documented here do not include those from the original repository.
 ## [Unreleased]
 
 ### Features
-- (android) Subscribe to app general topic when registering device (and unsubscribe when unregistering) (https://outsystemsrd.atlassian.net/browse/RMET-2948).
+- (android) Subscribes and unsubscribes from `appGeneralTopic` - `appIdentifier-general-topic-android` when registering and unregistering the device. (https://outsystemsrd.atlassian.net/browse/RMET-2948).
+- (ios) Subscribes and unsubscribes from `appGeneralTopic` - `appIdentifier-general-topic-ios` when registering and unregistering the device. (https://outsystemsrd.atlassian.net/browse/RMET-2947).
 
 ### Fix
 - (ios) `NotificationClickedV2` not being triggered when deep link property is not set (https://outsystemsrd.atlassian.net/browse/RMET-3695).
