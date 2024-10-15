@@ -9,20 +9,7 @@ The changes documented here do not include those from the original repository.
 ## [Unreleased]
 
 ### Features
-- (android) Subscribes and unsubscribes from `appGeneralTopic` - `appIdentifier-general-topic-android` when registering and unregistering the device. (https://outsystemsrd.atlassian.net/browse/RMET-2948).
-- (ios) Subscribes and unsubscribes from `appGeneralTopic` - `appIdentifier-general-topic-ios` when registering and unregistering the device. (https://outsystemsrd.atlassian.net/browse/RMET-2947).
-
-### Fix
-- (ios) `NotificationClickedV2` not being triggered when deep link property is not set (https://outsystemsrd.atlassian.net/browse/RMET-3695).
-
-## [Unreleased]
-### 04-10-2024
-- Feat: Handle icon and color parameters in setupNotificationBuilder for Android 12+ compatibility
-
-## [Version 2.3.2]
-
-### Features
-- Feat: Android | Update dependency to Firebase Cloud Messaging Android library (https://outsystemsrd.atlassian.net/browse/RMET-3608).
+- iOS - Subscribes and unsubscribes from `appGeneralTopic` - `appIdentifier-general-topic-ios` when registering and unregistering the device. (https://outsystemsrd.atlassian.net/browse/RMET-2947).
 
 ## [Version 2.3.1]
 
