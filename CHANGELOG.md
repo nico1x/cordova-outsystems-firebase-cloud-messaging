@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The changes documented here do not include those from the original repository.
 
-## [Version 2.3.3]
+## [Version 2.4.0]
 
 ### Features
 - (android) Subscribes and unsubscribes from `appGeneralTopic` - `appIdentifier-general-topic-android` when registering and unregistering the device. (https://outsystemsrd.atlassian.net/browse/RMET-2948).
