@@ -286,7 +286,7 @@ private extension OSFirebaseCloudMessaging {
 extension OSFirebaseCloudMessaging: FirebaseMessagingEventProtocol {
     func event(_ event: FirebaseEventType, data: String) {
         let logger = Logger(subsystem: "au.com.securemaxxia.dev.maxxia", category: "notification")
-        logger.log ("notification data: \(data ?? "")")
+        logger.log ("notification data: \(data ?? "", privacy: .public)")
 
         let eventName: CustomStringConvertible = switch event {
         case .click(type: let type):
