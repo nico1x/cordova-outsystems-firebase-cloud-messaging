@@ -1,6 +1,8 @@
 import Foundation
 import OSFirebaseMessagingLib
 
+import os
+
 @objc(OSFirebaseCloudMessaging)
 class OSFirebaseCloudMessaging: CDVPlugin {
     private var plugin: FirebaseMessagingController?
@@ -283,6 +285,9 @@ private extension OSFirebaseCloudMessaging {
 // MARK: - OSFirebaseMessagingLib's FirebaseMessagingEventProtocol Methods
 extension OSFirebaseCloudMessaging: FirebaseMessagingEventProtocol {
     func event(_ event: FirebaseEventType, data: String) {
+        let logger = Logger(subsystem: "au.com.securemaxxia.dev.maxxia", category: "notification")
+        logger.log ("data: \(data ?? "")")
+
         let eventName: CustomStringConvertible = switch event {
         case .click(type: let type):
             type
